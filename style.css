@@ -1,0 +1,52 @@
+body{
+
+
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+   
+}
+.container{
+    color:white !important;
+}
+.card{
+    width: 100% !important;
+    transition: 1s;
+}
+.menu{
+    text-align: center;
+   background-color: black;
+}
+.card{
+    border:2px black solid !important;
+    transition:1s;
+    
+    /* width: 80% !important; */
+}
+.card-body{
+    text-align: center;
+}
+.navbar-brand{
+    color:white !important;
+}
+.nav-link{
+    color: white !important;
+}
+.col-auto{
+    color:black !important;
+}
+
+.form-label{
+    color:black!important;
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: 1s;
+   box-shadow: 5px 5px 20px red;
+}
+nav{
+    position:sticky !important ;
+    top: 0 !important;
+    z-index: 1000 !important;
+    
+}
+
+
